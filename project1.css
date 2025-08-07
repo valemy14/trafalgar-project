@@ -1,0 +1,452 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+*{
+    font-family: "mulish";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 40px 80px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 90px;
+}
+
+nav ul{
+    display: flex;
+    margin-top: 15px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 25px;
+    color: #7D7987;
+    font-weight: 400;
+}
+
+.home{
+    color: #1F1534;
+    font-weight: 700;
+}
+
+.element{
+    position: absolute;
+    left: 0;
+    top: 140px;
+}
+
+.virtual, .leading, .download{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.virtual-left{
+    width: 100%;
+    margin-left: 90px;
+}
+
+.virtual h1{
+    margin-bottom:25px;
+    color: #000;
+}
+
+.virtual p{
+    margin-bottom: 30px;
+    color: #7D7987;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.v-btn{
+    color: #fff;
+    background-color: #458FF6;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+
+.service-top{
+    text-align: center;
+}
+
+.card{ 
+    background-color:#fff;
+    padding: 30px 30px;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+
+.card-img{
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.card-item p{
+    color: #000;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.card-item small{
+    color: #7D7987;
+    font-weight: 300;
+}
+  
+.top, .bottom{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bottom{
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.element-two{
+    position: absolute;
+    right: 160px;
+    z-index: -1;
+}
+
+.frame-bg{
+    position: absolute;
+    left: 0;
+    z-index:-1;
+    
+}
+
+.virtual{
+    margin-bottom: 150px;
+}
+
+.service{
+    margin-bottom:150px ;
+}
+
+.service-top h2{
+    margin-bottom: 20px;
+}
+
+.service-top img{
+    margin-bottom: 20px;
+}
+
+hr{
+    margin-bottom: 15px;
+    width: 3%;
+}
+
+.service-top p{
+    color: #7D7987;
+    font-weight: 300;
+    line-height:25px ;
+}
+
+.service-bottom{
+    margin-top: 75px;
+}
+
+.s-btn{
+    justify-content: center;
+    border: 1px solid #458FF6;
+    background-color: #fff;
+    padding: 10px 30px;
+    color: #458FF6;
+    border-radius: 20px;
+}
+
+.ser-btn{
+   margin-top:40px;
+   margin-left: 500px;
+    border: 1px solid #458FF6;
+    background-color: #fff;
+    padding: 10px 30px;
+    color: #458FF6;
+    border-radius: 20px;
+}
+
+.leading-right h2, .download-left h2{
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+
+.leading-right p, .download-left p{
+    color: #7D7987;
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 25px;
+    font-size: small;
+}
+
+.leading, .download{
+    padding: 50px;
+    margin-bottom: 50px;
+}
+
+.leading img, .dash{
+    margin-bottom: 20px;
+}
+
+.elemen-t{
+    position: absolute;
+    right: 0;
+    top: 2170px;
+}
+
+.testimonials{
+    background-image:url("images2/Rectangle\ 13\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 150px;
+
+}
+
+.e-lement{
+    position: absolute;
+    left: 985px;
+    padding-top: 30px;
+}
+
+.ele-ment{
+    position: absolute;
+    left: 170px;
+    padding-top: 45px;
+    z-index: -1;
+}
+
+.testimonial-top{
+    text-align: center;
+    padding: 70px;
+    margin-top: 80px;
+    color: #fff;
+}
+
+.testimonial-top img{
+    margin-top: 20px;
+}
+
+.testimonial-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 240px;
+}
+
+.test-right{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.test-left{
+    display: flex;
+    gap: 20px;
+}
+
+.test-left img{
+    margin-bottom: 55px;
+}
+
+.info{
+    margin-top: 45px;
+    font-size: small;
+    font-weight: 500;
+    color: #fff;
+}
+
+.arrow{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.small{
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.card-bottom{
+    background-color:#fff;
+    padding: 15px 25px 25px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 100%;
+    margin-top: -3px;
+
+}
+
+.c-img{
+    width: 100%;
+}
+
+.card-bottom p{
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: 550;
+    font-size: medium;
+    
+}
+
+.card-bottom small{
+    color: #7D7987;
+    font-weight: 400;
+}
+
+.read{
+    margin-top: 15px;
+}
+.read small{
+    color: #4089ED;
+}
+
+.check{
+    margin-bottom: 180px;
+}
+
+.check-top{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.check-top img{
+    margin-top: 20px;
+}
+
+.check-bottom{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.e-check{
+    position: absolute;
+    left: 170px;
+    z-index: -1;
+}
+
+.ele-check{
+    position: absolute;
+    right: 0;
+    top: 3270px;
+    z-index: -1;
+    
+}
+
+.check-btn{
+    margin-top:40px;
+   margin-left: 500px;
+    border: 1px solid #458FF6;
+    background-color: #fff;
+    padding: 10px 40px;
+    color: #458FF6;
+    border-radius: 20px;
+}
+
+
+.foot-img{
+   position: absolute;
+   width: 100%;
+   left: 0;
+   z-index: -1;
+   
+}
+
+.f-element{
+    position: absolute;
+    right: 0;
+    top: 3987px;
+    z-index: -2;
+}
+
+.foot-element{
+    position: absolute;
+    left: 0;
+}
+
+.footer-logo{
+    position: relative;
+    display: inline-block;
+    margin-top: 80px;
+}
+
+.ellipse{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.tee{
+    position: absolute;
+    top: 10%;
+    left: 28%;
+    color:#5B9BF3 ;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.tra-logo{
+    position: absolute;
+    left: 138%;
+    top: 12%;
+    font-weight:500;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.footer-right{
+    display: flex;
+    gap: 100px;
+    margin-top: 110px;
+}
+
+.footer-left{
+    margin-top: 25px;
+}
+
+.footer-logo{
+    margin-bottom: 10px;
+}
+
+.p-one{
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height:23px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.p-two{
+    font-size: 13px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.footer-right p{
+    margin-bottom:12px ;
+    font-weight: 500;
+    color: #fff;
+}
+
+.footer-right small{
+    font-weight: 200;
+    font-size:13px ;
+    line-height: 30px;
+    color: #fff;
+    
+}
