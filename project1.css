@@ -22,6 +22,8 @@ nav ul{
     margin-top: 15px;
 }
 
+
+
 nav ul li{
     list-style: none;
     margin-right: 25px;
@@ -209,7 +211,8 @@ hr{
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 150px;
-
+    width: 100%;
+   
 }
 
 .e-lement{
@@ -239,17 +242,17 @@ hr{
 .testimonial-bottom{
     display: flex;
     justify-content: space-between;
-    margin:10px 240px;
+    padding: 0 240px 0;
 }
 
 .test-right{
-    margin-top: 20px;
+    margin-top: 10px;
     color: #fff;
 }
 
 .test-left{
     display: flex;
-    gap: 20px;
+    gap: 15px;    
 }
 
 .test-left img{
@@ -260,7 +263,7 @@ hr{
     margin-top: 45px;
     font-size: small;
     font-weight: 500;
-    color: #fff;
+    color:#fff;
 }
 
 .arrow{
@@ -344,7 +347,7 @@ hr{
 
 .check-btn{
     margin-top:40px;
-   margin-left: 500px;
+    margin-left: 500px;
     border: 1px solid #458FF6;
     background-color: #fff;
     padding: 10px 40px;
@@ -449,4 +452,279 @@ hr{
     line-height: 30px;
     color: #fff;
     
+}
+
+.icon{
+    display: none;
+}
+
+
+
+@media screen and (max-width:600px){
+
+  body{
+    padding: 0;
+  }
+
+  nav ul{
+    display: none;
+  }
+
+  .icon{
+    display:block;
+    margin-left: 650px;
+  }
+
+  .whole-nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    
+  }
+
+  .virtual{
+    flex-direction: column;
+    width: 100%;
+    margin-top: 150px;
+    margin-left: 100px;
+  }
+
+  .virtual-left{
+    text-align: left;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  .virtual-left h2{
+    font-size: 100px;
+  }
+
+  .virtual-left p{
+    font-size: 30px;
+    line-height: 36px;
+    max-width: 100%;
+  }
+
+  .v-btn{
+    width: 60%;
+  }
+
+  .virtual-right img{
+    max-width:750px;
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+
+  .service-top{
+    text-align: left;
+    font-size: 25px;
+    margin-left: 150px;
+  }
+
+  .top{
+    flex-direction: column;
+    margin-left: 150px;
+  }
+
+  .bottom{
+    flex-direction: column;
+    margin-left: 150px;
+  }
+
+  .frame-bg{
+    position: absolute;
+    left: 0;
+    top: 1500px;
+  }
+
+  .element-two{
+    position: absolute;
+    right: -10px;
+   
+  }
+
+  .ser-btn{
+   margin-left: 150px;
+   width: 60%;
+  }
+
+  .leading{
+    flex-direction: column;
+    margin-left: 80px;
+  }
+
+  .leading-left img{
+    margin-left: 80px;
+    margin-bottom: 50px;
+  }
+
+  .leading-right{
+    text-align: left;
+    font-size: 25px;
+   
+  }
+
+  .leading-right p{
+    font-size: 20px;
+  }
+
+  .s-btn{
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .elemen-t{
+    position: absolute;
+    margin-right:-80px ;
+    top: 4600px;
+  }
+
+  .download{
+    flex-direction: column;
+    margin-left: 80px;
+  }
+
+  .download-left{
+    text-align: left;
+    font-size: 25px;
+  }
+
+  .download-left p{
+    font-size: 20px;
+  }
+
+  .download-right img{
+    margin-top: 50px;
+    margin-left: 80px;
+  }
+
+  .testimonials{
+    background-image: url("images2/Rectangle\ 13\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    margin-left: 85px;
+    border-radius: 25px;
+    
+  }
+
+  .testimonial-top{
+    text-align: left;
+    margin-top:-20px ;
+  }
+
+  .testimonial-bottom{
+    flex-direction: column;
+  }
+
+  .test-left{
+    flex-direction: column;
+    margin-top: -30px;
+    margin-left:-190px;
+  }
+
+  .test-left img{
+   width: 80%;
+  }
+
+  .info{
+    text-align: left;
+    margin-top: -50px;
+    margin-right: 20px;
+  }
+
+  .test-right{
+    text-align: left;
+    margin-left: -200px;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  .check-top{
+    text-align: left;
+    margin-left: 80px;
+  }
+
+  .check-bottom{
+    flex-direction: column;
+    margin-left: 80px;
+    font-size: 20px;
+  }
+
+  .check-btn{
+    margin-left:120px;
+    width: 60%;
+  }
+
+  .ele-check{
+   display: none;
+    
+  }
+
+  .foot-img{
+    position: absolute;
+    height: 1300px;
+    margin-left: 80px;
+  }
+
+  .footer-content{
+    flex-direction: column;
+    margin-left:20px ;
+    font-size: 30px;
+  }
+
+  .footer-right small{
+    font-size: 15px;
+  }
+
+  .footer-right{
+    flex-direction: column;
+  }
+
+  
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
